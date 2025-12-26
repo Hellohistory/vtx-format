@@ -46,7 +46,6 @@ pub fn decode(bytes: &[u8]) -> Result<(u8, &[u8]), VtxFormatError> {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
